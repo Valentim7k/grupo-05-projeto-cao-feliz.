@@ -334,6 +334,8 @@ body {
     font-size: 12px;
 }
 
+
+
 @media (max-width: 800px) {
     .cabecalho {
         flex-wrap: wrap;
@@ -371,4 +373,16 @@ body {
     .rodape {
         flex-wrap: wrap;
     }
-}
+
+    .rodape img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }}
+
+    .title-objetivos h1{
+        font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+
+    }
